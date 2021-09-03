@@ -4,7 +4,7 @@ using Plots, ColorSchemes, PlotThemes
 
 ## create data
 x = collect(0.01:0.01:0.99);
-α = collect(0.1:0.1:10);
+α = collect(0.1:0.15:10);
 β = collect(0.1:0.5:10);
 y = zeros(length(x), length(α), length(β), 2);
 for i = 1:length(α), j = 1:length(β)
